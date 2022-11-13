@@ -10,8 +10,20 @@
     background-color: rgb(255, 255, 255);
     width:100%;
     height: 70px;
-        
+
 }
+
+.navbar a {
+    padding: 0.825em;
+    font-size: 1em;
+    font-style: normal;
+    width:100%;
+    transition: all 0.75s;
+}
+
+.navbar a: hoover { color: rgb(153, 157, 141)}
+
+/*Body style*/
 
 body {
     background-color: rgba(181, 190, 160) 
@@ -37,4 +49,19 @@ footer {
     background-color: rgb(88, 83, 87);
     width:100%;
     padding: top 1.25em;
+}
+
+@media screen and (min-width:576px){
+    .navbar a {
+        padding: 6px;
+        font-size: 1em;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .navbar a {
+        padding: 1em;
+        font-size: 1.825em;
+    }
+    
 }
