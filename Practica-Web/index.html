@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="https://i.ibb.co/nkTt8YJ/logo-club.webp" alt="Logo-del-club">
+            </div>
+           <div>
+            <ul>
+                <li><a href="#">La vida buena</a></li>
+                <li><a href="#">Sesiones</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <div class="main-banner">
+        <img src="https://i.ibb.co/F6MKVXZ/libreria-club.webp" alt="biblioteca-LeClab">
+        <h1 class="headline300">UNA VIDA BUENA ES</h1>
+        <h2 class="headline200">ES USAR UN LIBRO COMO UN ATAJO PARA ENCONTRAR UN DESTINO</h2>
+    </div>
+    <main>
+        <div>
+            <details open>
+                <summary>Las Vidas Pasadas</summary>
+                <p>La vida buena y...</p>
+            </details>
+        
+        <div>
+            <details>
+                <summary>La ciudad</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sit 
+                quos sunt doloremque assumenda totam a consequatur blanditiis ducimus saepe
+                numquam est error ut omnis, consequuntur, dolor aliquid at excepturi!
+                Ratione, at optio. A, natus officiis sed doloremque aut recusandae, provident
+                iste, tempora nisi itaque eius? Maxime, modi consequatur sed in iure debitis 
+                met perspiciatis, quidem non placeat eos possimus nulla eaque nam enim expedita.</p>
+            </details>
+        </div>
+            <div>
+                <details>
+                    <summary>Los libros</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sit 
+                    quos sunt doloremque assumenda totam a consequatur blanditiis ducimus saepe
+                    numquam est error ut omnis, consequuntur, dolor aliquid at excepturi!
+                    Ratione, at optio. A, natus officiis sed doloremque aut recusandae, provident
+                    iste, tempora nisi itaque eius? Maxime, modi consequatur sed in iure debitis 
+                    met perspiciatis, quidem non placeat eos possimus nulla eaque nam enim expedita.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>El tiempo perdido</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sit 
+                    quos sunt doloremque assumenda totam a consequatur blanditiis ducimus saepe
+                    numquam est error ut omnis, consequuntur, dolor aliquid at excepturi!
+                    Ratione, at optio. A, natus officiis sed doloremque aut recusandae, provident
+                    iste, tempora nisi itaque eius? Maxime, modi consequatur sed in iure debitis 
+                    met perspiciatis, quidem non placeat eos possimus nulla eaque nam enim expedita.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary>Las pasiones</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sit 
+                    quos sunt doloremque assumenda totam a consequatur blanditiis ducimus saepe
+                    numquam est error ut omnis, consequuntur, dolor aliquid at excepturi!
+                    Ratione, at optio. A, natus officiis sed doloremque aut recusandae, provident
+                    iste, tempora nisi itaque eius? Maxime, modi consequatur sed in iure debitis 
+                    met perspiciatis, quidem non placeat eos possimus nulla eaque nam enim expedita.</p>
+                </details>
+            </div>
+        </div>
+        </main>
+        <!--This is for the required skill bar, but i´ll write quotes instead-->
+        <div id="skills" class="skills">
+            <h1 class="headline200">Citas de los ponentes</h1>
+            <div class="skill--area">
+                <h3 class="headline150">Lo terapéutico en  la vida buena, es, perder el tiempo.</h3>
+                <div class="skills--bar">
+                    <div class="skills--bar-div" skill-bar-100></div>
+                </div>
+            </div>
+            <div class="skill--area">
+                <h3 class="headline150">La vida buena es pasear por la ciudad, porque andar es pensar.</h3>
+                <div class="skills--bar">
+                    <div class="skills--bar-div" skill-bar-90></div>
+                </div>
+            </div>
+            <div class="skill--area">
+                <h3 class="headline150">La poesía es una manera de hablarle al que se ha ido.</h3>
+                <div class="skills--bar">
+                    <div class="skills--bar-div" skill-bar-80></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Links</h3>
+            <!-- Web externa-->
+            <a href="https://leclab.madrid/lunes-leclab/" target="_blank">
+                Espacio LeClab
+            </a>
+            <!--navegación interna-->
+            <a href="contacto/contact.html">Contacto</a>
+        </div>
+        <div>
+            <h2>Registro</h2>
+            <form action="registro-completado.html" method="post">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input required id=name type="name" name="name">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input required id="mail" type="email" name="mail">
+                </div>
+
+                <div>
+                    <label for="username">Nombre de usuario</label>
+                    <input required id="username" type="text" name="username" placeholder="@username" pattern="@[a-z]+">
+                </div>
+
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input required id="password" type="password" name="password">
+                </div>
+                <fieldset>
+                    <legend>Cómo nos has conocido</legend>
+
+                    <label for="insta">Instagram</label>
+                    <input required id="insta" type="radio" name="lugar" value="Insta">
+
+                    <label for="escuela">ECH</label>
+                    <input required id="escuela" type="radio" name="lugar" value="ECH">
+
+                    <label for="club">LeClab</label>
+                    <input required id="club" type="radio" name="lugar" value="club">
+
+                    <label for="otro">Otros</label>
+                    <input required id="otro" type="radio" name="lugar" value="otro">
+                </fieldset>
+                <fieldset>
+                    <textarea name="coment" id="coment" maxlength="180" style="height:13em">¿Qué es para ti la vida buena?</textarea>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>    
+    <footer>
+        <a href="mailto:info@clubdelavidabuena.com">info@clubdelavidbuena.com</a>
+        <a href="https://www.instagram.com/clubdelavidabuena/" target="_blank">Instagram
+            <img src="https://i.ibb.co/p3bkGxK/logo-insta.png" alt="logo-insta">
+        </a>
+        <a href="https://github.com/CarlaMicaelaJacome" target="_blank">GitHub
+            <img src="https://i.ibb.co/2s4JjHP/logo-git.png" alt="logo-Git">
+        </a>
+        <a href="https://linkin.bio/clubdelavidabuena?fbclid=PAAaZXEOtUTJxzfclQsla2Ab
+        upP9VgfYf25ceEPvMMfJMSxDBXYZ2wkHKERZk" target="_blank">linkin.bio
+            <img src="https://i.ibb.co/wMjj5VZ/Leclab-cuadrado.webp" alt="logo-LC">
+        </a>
+
+    </footer>
+    
+</body>
+</html> 
