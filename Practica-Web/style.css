@@ -1,0 +1,29 @@
+:root{
+    --primary-color: rgba(181, 190, 160);
+}
+
+body {
+    background-color: rgba(181, 190, 160) 
+}
+
+/* Links style and hoover*/
+
+.link { color: rgb(124, 126, 119)}
+
+.linkf { color: rgb(153, 157, 141)}
+
+.link:hoover { color:rgb(80, 83, 86)}
+.linkf:hoover { color:rgb(80, 83, 86)}
+
+/* Footer style*/
+
+footer {
+    display: flex;
+    font-size: 0.8750em;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88, 83, 87);
+    width:100%;
+    padding: top 1.25em;
+}
