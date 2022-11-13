@@ -2,6 +2,17 @@
     --primary-color: rgba(181, 190, 160);
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 70px;
+        
+}
+
 body {
     background-color: rgba(181, 190, 160) 
 }
